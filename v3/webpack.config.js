@@ -3,8 +3,8 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    'app-mobile': path.resolve(__dirname, './src/app-mobile.js'),
-    'app-desktop': path.resolve(__dirname, './src/app-desktop.js')
+    'app-mobile': path.resolve(__dirname, '../src/app-mobile.js'),
+    'app-desktop': path.resolve(__dirname, '../src/app-desktop.js')
   },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
